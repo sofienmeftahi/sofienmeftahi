@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+html::-webkit-scrollbar-thumb {
+  color: #dca313;
+  border-radius: 5rem;
+}
+
+body {
+  background: #0d0d0d;
+  padding-bottom: 6.5rem;
+}
+
+section {
+  padding: 0rem 7%;
+}
+
+.heading {
+  text-align: center;
+  font-size: 6vw;
+  color: #fff;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.heading span {
+  text-transform: uppercase;
+  color: #dca313;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 0.8rem;
+  border-radius: 4.0rem;
+  color: #dca313;
+  padding: .2rem;
+  font-size: 1.3rem;
+  color: #fff;
+  padding-left: 1.8rem;
+}
+
+.btn i {
+  height: 3.0rem;
+  width: 3.0rem;
+  line-height: 3.0rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background: #fff;
+  color: #dca313;
+  border-radius: 50%;
+  margin-left: 0.9rem;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.btn:hover i {
+  margin-left: 1.9rem;
+}
+
+
+
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 0rem;
+  min-height: calc(100vh - 6.5rem);
+}
+
+.home .image {
+  -webkit-box-flex: 0;
+      -ms-flex: 1 1 42rem;
+          flex: 1 1 42rem;
+  text-align: center;
+
+}
+
+.home .image img {
+  height: 25rem;
+  width: 25rem;
+border-radius: 50%;
+ 
+}
+
+.home .content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
+          margin-left: -60px;
+}
+
+.home .content h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  padding-bottom: 0.1rem;
+}
+
+.home .content span {
+  font-size: 1.7rem;
+  color: #dca313;
+  padding: .3rem 0;
+  display: block;
+}
+
+.home .content p {
+  font-size: 0.9rem;
+  color: #aaa;
+  padding: 0.5rem 0;
+  line-height: 2;
+}
+
+
+
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+  section {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 12vw;
+  }
+  .navbar a i {
+    padding: 0;
+  }
+  .navbar a span {
+    display: none;
+  }
+  .navbar a:hover {
+    padding-bottom: 2rem;
+  }
+  .home {
+    text-align: center;
+    gap: 2rem;
+  }
+  .home .image img {
+    height: 18rem;
+    width: 18rem;
+  }
+
+  .home .content h3 {
+    font-size: 1.5rem;
+    margin-left: 40px;
+  }
+  .home .content span {
+    font-size: 1.5rem;
+    margin-left: 40px;
+
+  }
+  .home .content p {
+    font-size: 0.8rem;
+    margin-left: 40px;
+
+  }
+  .contact .row form .inputBox input {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    display: inline-block;
+    margin-top: 0.8rem;
+    border-radius: 4.0rem;
+    background: #dca313;
+    padding: .2rem;
+    font-size: 1.3rem;
+    color: #fff;
+    padding-left: 1.8rem;
+    margin-left: 40px;
+  }
+  
+
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
