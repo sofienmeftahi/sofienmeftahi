@@ -1,13 +1,14 @@
 ### Hi there 👋
 
 <h1 align="center">Hi, I'm Meftahi Sofien </h1>
-<h3 align="center">Business Analyst From Tunisia</h3>
+<h3 align="center">Data Analyst From Tunisia</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=sofienmeftahi&label=Profile%20views&color=0e75b6&style=flat" alt="sofienmeftahi" /> </p>
 
 
 
 - 📫 How to reach me Sofienmeftahi113t@gmail.com**
+- My porfolio :https://sofienmeftahi.studio/
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
